@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from ZipAirlines.models import Plane
+
+admin.site.register(Plane)
